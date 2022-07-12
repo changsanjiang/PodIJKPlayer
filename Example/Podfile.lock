@@ -1,0 +1,18 @@
+PODS:
+  - PodIJKPlayer (0.1.0):
+    - PodIJKPlayer/Core (= 0.1.0)
+  - PodIJKPlayer/Core (0.1.0)
+
+DEPENDENCIES:
+  - PodIJKPlayer (from `../`)
+
+EXTERNAL SOURCES:
+  PodIJKPlayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PodIJKPlayer: f9af51f637a2aab110b3adef9c17b55dd4ab7ba6
+
+PODFILE CHECKSUM: 5eae112b27c71ca2948fc8a63682dabb1bc8c4c1
+
+COCOAPODS: 1.11.3
