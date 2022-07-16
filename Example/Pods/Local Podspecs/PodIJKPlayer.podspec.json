@@ -12,12 +12,12 @@
     "changsanjiang": "changsanjiang@gmail.com"
   },
   "source": {
-    "http": "https://raw.githubusercontent.com/changsanjiang/PodIJKPlayer/main/PodIJKPlayer/Core/IJKMediaFramework.framework.zip"
+    "http": "https://raw.githubusercontent.com/changsanjiang/PodIJKPlayer/main/IJKMediaFramework.framework.zip"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "public_header_files": "PodIJKPlayer/*.h",
+  "source_files": "PodIJKPlayer/**/*.h",
   "vendored_frameworks": "*.framework",
   "frameworks": [
     "AudioToolbox",
