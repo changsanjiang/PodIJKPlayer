@@ -21,7 +21,11 @@
     
     _playerController = [IJKFFMoviePlayerController.alloc initWithContentURL:[NSURL URLWithString:@"https://dh2.v.netease.com/2017/cg/fxtpty.mp4"] withOptions:IJKFFOptions.optionsByDefault];
     
+    [_playerController prepareToPlay];
     [_playerController play];
+    
+    _playerController.view.frame = CGRectMake(20, 20, 300, 200);
+    [self.view addSubview:_playerController.view];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

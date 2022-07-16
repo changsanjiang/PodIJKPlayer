@@ -30,10 +30,10 @@ ijkplayer framework.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = '*.h'
+  s.source_files = 'PodIJKPlayer/*.h'
   
   s.subspec 'Core' do |ss|
-      ss.vendored_frameworks = '*.framework'
+      ss.vendored_frameworks = 'PodIJKPlayer/*.framework'
       ss.frameworks  = "AudioToolbox", "AVFoundation", "CoreGraphics", "CoreMedia", "CoreVideo", "MobileCoreServices", "OpenGLES", "QuartzCore", "VideoToolbox", "MediaPlayer"
       ss.libraries   = "bz2", "z", "stdc++"
   end
