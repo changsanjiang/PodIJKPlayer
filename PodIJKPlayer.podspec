@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PodIJKPlayer'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'framework'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ ijkplayer framework.
   s.source_files = 'PodIJKPlayer/*.h'
   
   s.subspec 'Core' do |ss|
-      ss.vendored_frameworks = 'PodIJKPlayer/Core/IJKMediaFramework.framework'
+      ss.vendored_frameworks = '*.framework'
       ss.frameworks  = "AudioToolbox", "AVFoundation", "CoreGraphics", "CoreMedia", "CoreVideo", "MobileCoreServices", "OpenGLES", "QuartzCore", "VideoToolbox", "MediaPlayer"
       ss.libraries   = "bz2", "z", "stdc++"
   end

@@ -1,6 +1,6 @@
 {
   "name": "PodIJKPlayer",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "framework",
   "description": "ijkplayer framework.",
   "homepage": "https://github.com/changsanjiang/PodIJKPlayer",
@@ -12,34 +12,28 @@
     "changsanjiang": "changsanjiang@gmail.com"
   },
   "source": {
-    "git": "https://github.com/changsanjiang/PodIJKPlayer.git",
-    "tag": "0.1.0"
+    "http": "https://raw.githubusercontent.com/changsanjiang/PodIJKPlayer/main/PodIJKPlayer/Core/IJKMediaFramework.framework.zip"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "PodIJKPlayer/*.h",
-  "subspecs": [
-    {
-      "name": "Core",
-      "vendored_frameworks": "PodIJKPlayer/Core/IJKMediaFramework.framework",
-      "frameworks": [
-        "AudioToolbox",
-        "AVFoundation",
-        "CoreGraphics",
-        "CoreMedia",
-        "CoreVideo",
-        "MobileCoreServices",
-        "OpenGLES",
-        "QuartzCore",
-        "VideoToolbox",
-        "MediaPlayer"
-      ],
-      "libraries": [
-        "bz2",
-        "z",
-        "stdc++"
-      ]
-    }
+  "public_header_files": "PodIJKPlayer/*.h",
+  "vendored_frameworks": "*.framework",
+  "frameworks": [
+    "AudioToolbox",
+    "AVFoundation",
+    "CoreGraphics",
+    "CoreMedia",
+    "CoreVideo",
+    "MobileCoreServices",
+    "OpenGLES",
+    "QuartzCore",
+    "VideoToolbox",
+    "MediaPlayer"
+  ],
+  "libraries": [
+    "bz2",
+    "z",
+    "stdc++"
   ]
 }

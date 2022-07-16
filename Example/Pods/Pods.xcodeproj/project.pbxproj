@@ -24,38 +24,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4BD74E453490AB0CFC4861D51294C5E3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 403AF1D796D86678A319F64C96FB1FFE;
-			remoteInfo = PodIJKPlayer;
-		};
-		56A6FD6C915F6FEB491450632E719EFC /* PBXContainerItemProxy */ = {
+		0C63A5F06993B7E46C5AFCC908CB8B24 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BD92B697CE9CE275EE7733CC7361E862;
 			remoteInfo = "Pods-PodIJKPlayer_Example";
 		};
+		56E213A68C2454388EA545371C81A4A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 403AF1D796D86678A319F64C96FB1FFE;
+			remoteInfo = PodIJKPlayer;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		009F26249BB1455E63791EC7A083CB34 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		00A32A71822D31F96CA8A1A092EA3F98 /* Pods-PodIJKPlayer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PodIJKPlayer_Tests-dummy.m"; sourceTree = "<group>"; };
 		0F2C892289767DF39639E6FF97CD1EB6 /* Pods-PodIJKPlayer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PodIJKPlayer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		179F48FCF4CD72992CF015D0DE154DFD /* PodIJKPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PodIJKPlayer.h; path = PodIJKPlayer/PodIJKPlayer.h; sourceTree = "<group>"; };
-		1CC365F93CC6FFAD01C000947003BB3B /* PodIJKPlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PodIJKPlayer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		200A23AAED5C0BB55C1E97BAE5EA80C8 /* Pods-PodIJKPlayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PodIJKPlayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2170596CDA81BFDD685B1F16C96E81C4 /* PodIJKPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PodIJKPlayer.release.xcconfig; sourceTree = "<group>"; };
 		2CAB101F7273E7481BDA6EB92B4E3293 /* Pods-PodIJKPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PodIJKPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3A6DB097AA05F20468A97B13EE19AB3A /* Pods-PodIJKPlayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PodIJKPlayer_Example-dummy.m"; sourceTree = "<group>"; };
-		57AC6F64EAF93E3E40FC78BC5C86E2CC /* PodIJKPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PodIJKPlayer.debug.xcconfig; sourceTree = "<group>"; };
 		5AB49E03C02454DC9EC3CD200456B197 /* Pods-PodIJKPlayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PodIJKPlayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6AA663C3A1E576F798D05689B650CFC3 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		909F24E82D02F36DB600B5BE2E0A9DC4 /* Pods-PodIJKPlayer_Example */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-PodIJKPlayer_Example"; path = "libPods-PodIJKPlayer_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9BFA899B52432DAD61C74FF1FB7BCC4F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CBBC040F8680A76F0AA70BDC11DB078D /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = PodIJKPlayer/Core/IJKMediaFramework.framework; sourceTree = "<group>"; };
+		B7738E9AFC148D71CFED81F55E614BE2 /* PodIJKPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PodIJKPlayer.debug.xcconfig; sourceTree = "<group>"; };
+		BC32149ABB21B2431FD4121AA870F9E2 /* PodIJKPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PodIJKPlayer.release.xcconfig; sourceTree = "<group>"; };
 		D48F222918CB11FA17C48418685F3F53 /* Pods-PodIJKPlayer_Tests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-PodIJKPlayer_Tests"; path = "libPods-PodIJKPlayer_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E246FD1119D7DB162C918221B78E27B8 /* Pods-PodIJKPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PodIJKPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		ED407E2AB00C3F21478A9B57D5B7BB43 /* Pods-PodIJKPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PodIJKPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -81,16 +77,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		10C44390986D83ED22364B2B26B14917 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				57AC6F64EAF93E3E40FC78BC5C86E2CC /* PodIJKPlayer.debug.xcconfig */,
-				2170596CDA81BFDD685B1F16C96E81C4 /* PodIJKPlayer.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PodIJKPlayer";
-			sourceTree = "<group>";
-		};
 		30E6CDA5E55CF053A8A16C291F10F109 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,42 +86,40 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3DE2DBAC226FDA7B670B1B20BB0ECFA5 /* Development Pods */ = {
+		37B17F1B62BB31B1226A36A84247BE89 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				585952DC72C9D2DC7DFC208D3E3C5B47 /* PodIJKPlayer */,
+				8D201C675C1D8B5EB35BE0E0D6A0A9F7 /* PodIJKPlayer */,
 			);
-			name = "Development Pods";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		3FCD1F06897E69AAD270DB7B1B8A2AE2 /* Frameworks */ = {
+		64B84697341072BB221B0FD63F492535 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CBBC040F8680A76F0AA70BDC11DB078D /* IJKMediaFramework.framework */,
+				B7738E9AFC148D71CFED81F55E614BE2 /* PodIJKPlayer.debug.xcconfig */,
+				BC32149ABB21B2431FD4121AA870F9E2 /* PodIJKPlayer.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/PodIJKPlayer";
 			sourceTree = "<group>";
 		};
-		585952DC72C9D2DC7DFC208D3E3C5B47 /* PodIJKPlayer */ = {
+		8D201C675C1D8B5EB35BE0E0D6A0A9F7 /* PodIJKPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				179F48FCF4CD72992CF015D0DE154DFD /* PodIJKPlayer.h */,
-				C2A12D77157DC5F415DE632AE6BDED4B /* Core */,
-				95926D223B5046D493E5968C0E40A0D8 /* Pod */,
-				10C44390986D83ED22364B2B26B14917 /* Support Files */,
+				9E63D33D8B4B8434D88A335959CE27DE /* Frameworks */,
+				64B84697341072BB221B0FD63F492535 /* Support Files */,
 			);
 			name = PodIJKPlayer;
-			path = ../..;
+			path = PodIJKPlayer;
 			sourceTree = "<group>";
 		};
-		95926D223B5046D493E5968C0E40A0D8 /* Pod */ = {
+		9E63D33D8B4B8434D88A335959CE27DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				009F26249BB1455E63791EC7A083CB34 /* LICENSE */,
-				1CC365F93CC6FFAD01C000947003BB3B /* PodIJKPlayer.podspec */,
-				9BFA899B52432DAD61C74FF1FB7BCC4F /* README.md */,
+				6AA663C3A1E576F798D05689B650CFC3 /* IJKMediaFramework.framework */,
 			);
-			name = Pod;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A8FAACACB5A89C19011DAEA4C4FAB837 /* Targets Support Files */ = {
@@ -160,20 +144,12 @@
 			path = "Target Support Files/Pods-PodIJKPlayer_Tests";
 			sourceTree = "<group>";
 		};
-		C2A12D77157DC5F415DE632AE6BDED4B /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				3FCD1F06897E69AAD270DB7B1B8A2AE2 /* Frameworks */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				3DE2DBAC226FDA7B670B1B20BB0ECFA5 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				37B17F1B62BB31B1226A36A84247BE89 /* Pods */,
 				30E6CDA5E55CF053A8A16C291F10F109 /* Products */,
 				A8FAACACB5A89C19011DAEA4C4FAB837 /* Targets Support Files */,
 			);
@@ -230,7 +206,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B084A4144F2A9063682E0371D3EFC3FE /* PBXTargetDependency */,
+				5C0CD604E01DAD2F3488F8E86127C5F2 /* PBXTargetDependency */,
 			);
 			name = "Pods-PodIJKPlayer_Tests";
 			productName = "Pods-PodIJKPlayer_Tests";
@@ -248,7 +224,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E7B6DE264136EF35C775C6DA2B22900D /* PBXTargetDependency */,
+				BFE1DE4F6E607E6E2FF7AD9D0247428A /* PBXTargetDependency */,
 			);
 			name = "Pods-PodIJKPlayer_Example";
 			productName = "Pods-PodIJKPlayer_Example";
@@ -304,24 +280,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B084A4144F2A9063682E0371D3EFC3FE /* PBXTargetDependency */ = {
+		5C0CD604E01DAD2F3488F8E86127C5F2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-PodIJKPlayer_Example";
 			target = BD92B697CE9CE275EE7733CC7361E862 /* Pods-PodIJKPlayer_Example */;
-			targetProxy = 56A6FD6C915F6FEB491450632E719EFC /* PBXContainerItemProxy */;
+			targetProxy = 0C63A5F06993B7E46C5AFCC908CB8B24 /* PBXContainerItemProxy */;
 		};
-		E7B6DE264136EF35C775C6DA2B22900D /* PBXTargetDependency */ = {
+		BFE1DE4F6E607E6E2FF7AD9D0247428A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PodIJKPlayer;
 			target = 403AF1D796D86678A319F64C96FB1FFE /* PodIJKPlayer */;
-			targetProxy = 4BD74E453490AB0CFC4861D51294C5E3 /* PBXContainerItemProxy */;
+			targetProxy = 56E213A68C2454388EA545371C81A4A5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0465598DBF4C3980A9F1696E07283412 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2170596CDA81BFDD685B1F16C96E81C4 /* PodIJKPlayer.release.xcconfig */;
+			baseConfigurationReference = BC32149ABB21B2431FD4121AA870F9E2 /* PodIJKPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -483,7 +459,7 @@
 		};
 		8966A7BA408F526D6F741E2A79468868 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57AC6F64EAF93E3E40FC78BC5C86E2CC /* PodIJKPlayer.debug.xcconfig */;
+			baseConfigurationReference = B7738E9AFC148D71CFED81F55E614BE2 /* PodIJKPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

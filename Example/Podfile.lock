@@ -1,18 +1,16 @@
 PODS:
-  - PodIJKPlayer (0.1.0):
-    - PodIJKPlayer/Core (= 0.1.0)
-  - PodIJKPlayer/Core (0.1.0)
+  - PodIJKPlayer (0.2.0)
 
 DEPENDENCIES:
-  - PodIJKPlayer (from `../`)
+  - PodIJKPlayer (from `../PodIJKPlayer.podspec`)
 
 EXTERNAL SOURCES:
   PodIJKPlayer:
-    :path: "../"
+    :podspec: "../PodIJKPlayer.podspec"
 
 SPEC CHECKSUMS:
-  PodIJKPlayer: f9af51f637a2aab110b3adef9c17b55dd4ab7ba6
+  PodIJKPlayer: 0dcb73035ba73e51e67dc5082a3f2f7e1cc75b2f
 
-PODFILE CHECKSUM: 5eae112b27c71ca2948fc8a63682dabb1bc8c4c1
+PODFILE CHECKSUM: 2dd0124f433797a772fff20dbd9e7d1bbc78f67f
 
 COCOAPODS: 1.11.3

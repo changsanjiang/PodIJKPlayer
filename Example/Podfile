@@ -3,7 +3,7 @@
 platform :ios, '9.0'
 
 target 'PodIJKPlayer_Example' do
-  pod 'PodIJKPlayer', :path => '../'
+  pod 'PodIJKPlayer', :podspec => '../PodIJKPlayer.podspec'
 
   target 'PodIJKPlayer_Tests' do
     inherit! :search_paths
