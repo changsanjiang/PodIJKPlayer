@@ -25,12 +25,12 @@ ijkplayer framework.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'changsanjiang' => 'changsanjiang@gmail.com' }
-  s.source           = { :git => 'https://github.com/changsanjiang/PodIJKPlayer.git', :tag => s.version.to_s }
+  s.source           = { :http => 'https://raw.githubusercontent.com/changsanjiang/PodIJKPlayer/main/PodIJKPlayer.zip' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'PodIJKPlayer/*.h'
+  s.source_files = '*.h'
   
   s.subspec 'Core' do |ss|
       ss.vendored_frameworks = '*.framework'
