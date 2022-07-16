@@ -1,5 +1,7 @@
 PODS:
-  - PodIJKPlayer (0.2.0)
+  - PodIJKPlayer (0.2.0):
+    - PodIJKPlayer/Core (= 0.2.0)
+  - PodIJKPlayer/Core (0.2.0)
 
 DEPENDENCIES:
   - PodIJKPlayer (from `../PodIJKPlayer.podspec`)
@@ -14,7 +16,7 @@ CHECKOUT OPTIONS:
     :git: https://github.com/changsanjiang/PodIJKPlayer.git
 
 SPEC CHECKSUMS:
-  PodIJKPlayer: 86b60d08deb241a40e034f3a832fec2d6497f630
+  PodIJKPlayer: 12133ad95520399fe1a051b2e67f33495f5604f2
 
 PODFILE CHECKSUM: 2dd0124f433797a772fff20dbd9e7d1bbc78f67f
 
