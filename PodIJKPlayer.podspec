@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PodIJKPlayer'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'framework'
 
 # This description is used to generate tags and improve search results.
@@ -23,7 +23,7 @@ ijkplayer framework.
 
   s.homepage         = 'https://github.com/changsanjiang/PodIJKPlayer'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'MIT', :file => 'PodIJKPlayer/LICENSE' }
   s.author           = { 'changsanjiang' => 'changsanjiang@gmail.com' }
   s.source           = { :http => 'https://raw.githubusercontent.com/changsanjiang/PodIJKPlayer/main/PodIJKPlayer.zip' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
@@ -38,6 +38,7 @@ ijkplayer framework.
       ss.libraries   = "bz2", "z", "stdc++"
   end
   
+  s.static_framework = true
   
   # s.resource_bundles = {
   #   'PodIJKPlayer' => ['PodIJKPlayer/Assets/*.png']
