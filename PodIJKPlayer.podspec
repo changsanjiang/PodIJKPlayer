@@ -23,17 +23,17 @@ ijkplayer framework.
 
   s.homepage         = 'https://github.com/changsanjiang/PodIJKPlayer'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'PodIJKPlayer/LICENSE' }
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'changsanjiang' => 'changsanjiang@gmail.com' }
   s.source           = { :http => 'https://raw.githubusercontent.com/changsanjiang/PodIJKPlayer/main/PodIJKPlayer.zip' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'PodIJKPlayer/*.h'
+  s.source_files = '*.h'
   
   s.subspec 'Core' do |ss|
-      ss.vendored_frameworks = 'PodIJKPlayer/*.framework'
+      ss.vendored_frameworks = '*.framework'
       ss.frameworks  = "AudioToolbox", "AVFoundation", "CoreGraphics", "CoreMedia", "CoreVideo", "MobileCoreServices", "OpenGLES", "QuartzCore", "VideoToolbox", "MediaPlayer"
       ss.libraries   = "bz2", "z", "stdc++"
   end

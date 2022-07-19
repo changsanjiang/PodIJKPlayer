@@ -1,6 +1,6 @@
 {
   "name": "PodIJKPlayer",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "summary": "framework",
   "description": "ijkplayer framework.",
   "homepage": "https://github.com/changsanjiang/PodIJKPlayer",
@@ -17,11 +17,12 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "PodIJKPlayer/*.h",
+  "source_files": "*.h",
+  "static_framework": true,
   "subspecs": [
     {
       "name": "Core",
-      "vendored_frameworks": "PodIJKPlayer/*.framework",
+      "vendored_frameworks": "*.framework",
       "frameworks": [
         "AudioToolbox",
         "AVFoundation",

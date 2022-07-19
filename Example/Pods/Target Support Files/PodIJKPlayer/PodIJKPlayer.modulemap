@@ -1,6 +1,0 @@
-framework module PodIJKPlayer {
-  umbrella header "PodIJKPlayer-umbrella.h"
-
-  export *
-  module * { export * }
-}
