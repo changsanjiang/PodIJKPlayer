@@ -38,7 +38,7 @@ ijkplayer framework.
       ss.libraries   = "bz2", "z", "stdc++"
   end
   
-  s.static_framework = true
+  #s.static_framework = true
   
   # s.resource_bundles = {
   #   'PodIJKPlayer' => ['PodIJKPlayer/Assets/*.png']
